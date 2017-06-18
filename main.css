@@ -1,0 +1,31 @@
+
+.the-key {
+        width: 60px; height: 20px;
+        border: 1.5px solid #2c3e50;
+        border-radius: 15px;
+        background: #e74c3c;
+        transition: background 2s;
+        cursor: pointer;
+}
+      
+.the-circle {
+        background: radial-gradient(circle, #ccd8e3, #2c3e50);
+        margin: 0.2px 0px 0px 1px;
+        height: 19.5px; width: 20px;
+        border: 0px solid #aeb5b7;
+        border-radius: 50%;
+        position: relative;
+}
+
+.off {
+    left: 0px;
+    transition: 1.5s;
+}
+
+.on {
+    left: 38px;
+    transition: 1.5s;
+    transform: rotatex(360deg);
+    
+}
+
