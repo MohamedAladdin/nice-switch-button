@@ -14,3 +14,5 @@ document.getElementsByClassName('the-key')[0].onclick = function () {
     }
 
 };
+
+// Be More Calm
